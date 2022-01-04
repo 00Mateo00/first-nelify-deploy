@@ -277,7 +277,9 @@ body {
 
 .card_photo img {
 	width: 150px;
-	border-radius: 50%
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 .card_title {
