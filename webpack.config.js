@@ -1,5 +1,6 @@
 const path = require('path');
 <<<<<<< HEAD
+<<<<<<< HEAD
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
@@ -88,6 +89,8 @@ module.exports = {
     ]
   }
 =======
+=======
+>>>>>>> upstream/main
 const HtmlWebpackPplugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
@@ -158,5 +161,8 @@ module.exports = {
             new TerserPlugin(),
         ]
     }
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> upstream/main
 }

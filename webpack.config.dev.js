@@ -1,5 +1,6 @@
 const path = require('path');
 <<<<<<< HEAD
+<<<<<<< HEAD
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
@@ -78,6 +79,8 @@ module.exports = {
     new Dotenv(),
   ],
 =======
+=======
+>>>>>>> upstream/main
 const HtmlWebpackPplugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -137,5 +140,8 @@ module.exports = {
         new MiniCssExtractPlugin({filename: 'assets/[name].[contenthash].css'}),
 
     ]
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> upstream/main
 }
